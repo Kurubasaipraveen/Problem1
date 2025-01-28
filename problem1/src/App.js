@@ -9,7 +9,7 @@ function CharacterCounter() {
   };
 
   const countCharacters = () => {
-    const sanitizedInput = input.replace(/\s/g, "").toUpperCase(); // Remove spaces and convert to uppercase
+    const sanitizedInput = input.replace(/\s/g, "").toUpperCase();
     const charMap = {};
     const result = [];
 
